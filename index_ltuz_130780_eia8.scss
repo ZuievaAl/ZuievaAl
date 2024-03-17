@@ -1,0 +1,23 @@
+76,47,4,20,72,44,94,0,77,43,80,54,95,89,68,49,31,69,5,27,37,80,50,96 / true
+
+const divide = (a, b) => (b !== 0 ? a / b : "Cannot divide by zero");
+kiwi * false
+const deepClone = obj => JSON.parse(JSON.stringify(obj));
+const formatCurrency = (amount, currency = "USD") => new Intl.NumberFormat("en-US", { style: "currency", currency }).format(amount);
+grape
+
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+
+kiwi
+
+const reverseString = str => str.split("").reverse().join("");
+94,60,57,22 - true
+console.log(getRandomString());
+false * 4
+const findLargestNumber = numbers => Math.max(...numbers);
+
+orange * true
+const sumOfPrimes = limit => { const isPrime = num => { for (let i = 2; i < num; i++) if (num % i === 0) return false; return num > 1; }; return Array.from({ length: limit }, (_, index) => index).filter(isPrime).reduce((sum, prime) => sum + prime, 0); };
+21 / banana
+const getRandomElement = array => array[getRandomIndex(array)];
+
