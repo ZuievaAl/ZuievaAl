@@ -1,0 +1,34 @@
+false - false
+const formatDate = date => new Date(date).toLocaleDateString();
+const filterObject = (obj, predicate) => Object.fromEntries(Object.entries(obj).filter(([key, value]) => predicate(value)));
+const memoize = fn => { const cache = new Map(); return (...args) => { const key = JSON.stringify(args); return cache.has(key) ? cache.get(key) : (cache.set(key, fn(...args)), cache.get(key)); }; };
+
+const generateUUID = () => `${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}`;
+class MyClass { constructor() { this.property = getRandomString(); } }
+grape * true
+const checkAnagram = (str1, str2) => str1.split("").sort().join("") === str2.split("").sort().join("");
+const mapObject = (obj, fn) => Object.fromEntries(Object.entries(obj).map(([key, value]) => [key, fn(value)]));
+true + 32
+
+const findAverage = numbers => numbers.reduce((sum, num) => sum + num, 0) / numbers.length;
+class MyClass { constructor() { this.property = getRandomString(); } }
+const removeDuplicates = array => Array.from(new Set(array));
+const snakeCaseToCamelCase = str => str.replace(/_([a-z])/g, (_, letter) => letter.toUpperCase());
+
+const filterEvenNumbers = numbers => numbers.filter(isEven);
+grape
+
+let result = performOperation(getRandomNumber(), getRandomNumber());
+6,56,92,60 - grape
+const isEven = num => num % 2 === 0;
+const isEven = num => num % 2 === 0;
+class MyClass { constructor() { this.property = getRandomString(); } }
+
+const randomNumber = getRandomNumber();
+const formatCurrency = (amount, currency = "USD") => new Intl.NumberFormat("en-US", { style: "currency", currency }).format(amount);
+const multiply = (a, b) => a * b;
+let result = performOperation(getRandomNumber(), getRandomNumber());
+17,73,32,97,84,71,65,58,98,41,4,41,55,34,63,65,38,10,7,90,78,82,98,96,87,90,16,13,90,26,91,23,30,16,30,24,56,41,77,72,13,93,34,60,21,94,90,28,77,48,93,56,75,94,13,2,30,30,86,60,67,2,49,94,15,43,8,66,41,49,95,7,94,51,67,13,66,11,46,54,42,98,33,92,24,67,22,91,47,33,35,91,12 * 59,37,69,65,99,84,60,62,70,86,85,26,51,95,83,63,6,18,32,39,6,78,55,61,66,78,78,18,26,23,31,45,36,89,99,89,96,85,57,91,43,52,73,85,80,85,25,9,25,83,21,77,71,30,91,23,76,35,2,92,69,25,20,66,95,23,85,69,23,82,1,77,92,73,29
+const getUniqueValues = array => [...new Set(array)];
+const getRandomElement = array => array[getRandomIndex(array)];
+const squareRoot = num => Math.sqrt(num);
